@@ -42,6 +42,12 @@ To use from Go, use `go get` to grab the latest version of the library
 
     $ go get github.com/pulumi/pulumi-aws/sdk/go/...
 
+### .NET
+
+To use from .NET, install using `nuget`:
+
+    $ dotnet add package Pulumi.Aws
+
 ## Concepts
 
 The `@pulumi/aws` package provides a strongly-typed means to create cloud applications that create and interact closely
@@ -64,7 +70,7 @@ of this underlying capability.
 ## Reference
 
 For detailed reference documentation, please visit [the API docs](
-https://pulumi.io/reference/pkg/nodejs/@pulumi/aws/index.html).
+https://pulumi.io/reference/pkg/aws).
 
 ## Updating this provider
 
